@@ -12,6 +12,9 @@
     "ts": "npx tsc"
   },
   "author": "Georgii Perepecho <horprogs@gmail.com>",
+  "engines": {
+    "node": "16.13.1"
+  },
   "dependencies": {
     "babel-plugin-styled-components": "^2.0.2",
     "gatsby": "^4.1.0",

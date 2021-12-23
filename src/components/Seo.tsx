@@ -4,7 +4,10 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 type Props = {
   description?: string
-  meta?: string[]
+  meta?: React.DetailedHTMLProps<
+    React.MetaHTMLAttributes<HTMLMetaElement>,
+    HTMLMetaElement
+  >[]
   title: string
 }
 
@@ -49,7 +52,8 @@ const Seo = ({ description, meta = [], title }: Props) => {
           property: `og:type`,
           content: `website`,
         },
-      ].concat(meta)}
+        ...meta,
+      ]}
     />
   )
 }

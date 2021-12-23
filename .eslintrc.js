@@ -19,7 +19,8 @@ module.exports = {
     'import/order': 0,
     'import/no-unresolved': 0,
     'react/function-component-definition': 0,
-    'react/require-default-prop': 0,
+    'react/require-default-props': 'off',
+    'react/prop-types': 'off',
   },
   settings: {
     'import/resolver': {

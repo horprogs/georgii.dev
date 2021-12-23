@@ -72,5 +72,17 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    {
+      resolve: 'gatsby-plugin-load-script',
+      options: {
+        src: 'https://cdn.jsdelivr.net/npm/pathseg@1.2.0/pathseg.js',
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-load-script',
+      options: {
+        src: 'https://cdn.jsdelivr.net/npm/poly-decomp@0.2.1/build/decomp.min.js',
+      },
+    },
   ],
 }

@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Layout from '@components/layout'
+import Layout from '@components/Layout'
 import HeadInfo from '@components/HeadInfo'
 import Greetings from '@components/Greetings'
 import Links from '@components/Links'

@@ -19,10 +19,13 @@ module.exports = {
         },
       },
     },
+
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: 'gatsby-plugin-google-fonts',
       options: {
-        fonts: [`Montserrat`],
+        fonts: [
+          'Montserrat:400',
+        ],
         display: 'swap',
       },
     },

@@ -9,6 +9,22 @@ module.exports = {
     },
     description: ``,
     siteUrl: `https://georgii.dev/`,
+    openSource: [
+      {
+        title: 'JustValidate',
+        description:
+          'Modern, simple, lightweight (~5kb gzip) form validation library written in Typescript, with no dependencies (no JQuery!). Support a wide range of predefined rules (plus it is possible to define own custom rules), async validation, files validation, custom error messages and styles, localization.',
+        link: 'https://github.com/horprogs/Just-validate',
+        img: 'justvalidate.svg',
+      },
+      {
+        title: 'Vue2 SSR HMR boilerplate',
+        description:
+          'Vue2 application boilerplate, includes server-side rendering, hot reloading, VueX state management, CSS modules, code splitting, ESLint and customizable configs.',
+        link: 'https://github.com/horprogs/vue-ssr-hmr',
+        img: 'vuessr.jpeg',
+      },
+    ],
   },
   plugins: [
     {
@@ -23,9 +39,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
-        fonts: [
-          'Montserrat:400',
-        ],
+        fonts: ['Montserrat:400'],
         display: 'swap',
       },
     },

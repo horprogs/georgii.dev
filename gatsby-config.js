@@ -15,7 +15,7 @@ module.exports = {
         description:
           'Modern, simple, lightweight (~5kb gzip) form validation library written in Typescript, with no dependencies (no JQuery!). Support a wide range of predefined rules, async, files, dates validation, custom error messages and styles, localization. Support writing custom rules and plugins.',
         link: 'https://github.com/horprogs/Just-validate',
-        img: 'justvalidate-svg.svg',
+        img: 'justvalidate.svg',
       },
       {
         title: 'Vue2 SSR HMR boilerplate',

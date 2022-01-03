@@ -13,15 +13,23 @@ module.exports = {
       {
         title: 'JustValidate',
         description:
-          'Modern, simple, lightweight (~5kb gzip) form validation library written in Typescript, with no dependencies (no JQuery!). Support a wide range of predefined rules (plus it is possible to define own custom rules), async validation, files validation, custom error messages and styles, localization.',
+          'Modern, simple, lightweight (~5kb gzip) form validation library written in Typescript, with no dependencies (no JQuery!). Support a wide range of predefined rules, async, files, dates validation, custom error messages and styles, localization. Support writing custom rules and plugins.',
         link: 'https://github.com/horprogs/Just-validate',
-        img: 'justvalidate.svg',
+        img: 'justvalidate-svg.svg',
       },
       {
         title: 'Vue2 SSR HMR boilerplate',
         description:
           'Vue2 application boilerplate, includes server-side rendering, hot reloading, VueX state management, CSS modules, code splitting, ESLint and customizable configs.',
         link: 'https://github.com/horprogs/vue-ssr-hmr',
+        img: 'vuessr.jpeg',
+      },
+    ],
+    articles: [
+      {
+        title: 'How I made it easy to develop on Vue.js with server-side rendering',
+        description: 'My experience of setting SSR, HMR, VueX etc. boilerplate for Vue 2',
+        link: 'https://medium.com/js-dojo/how-i-made-it-easy-to-develop-on-vue-js-with-server-side-rendering-fdeebdd7e8d8',
         img: 'vuessr.jpeg',
       },
     ],

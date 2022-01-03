@@ -5,6 +5,7 @@ import Greetings from '@components/Greetings'
 import Links from '@components/Links'
 import Seo from '@components/Seo'
 import OpenSource from '@components/OpenSource'
+import Articles from '@components/Articles'
 
 const Index = () => (
   <Layout>
@@ -12,6 +13,7 @@ const Index = () => (
     <HeadInfo />
     <Greetings />
     <OpenSource />
+    <Articles />
     <Links />
   </Layout>
 )

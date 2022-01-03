@@ -27,16 +27,17 @@ const Link = styled.a`
   border-radius: 8px;
   color: inherit;
   border: 1px solid #ebebeb;
-  max-width: 350px;
+  max-width: 355px;
 
   @media all and (max-width: 835px) {
     margin: 16px 0;
   }
 `
 const Title = styled.div`
-  font-size: 32px;
+  font-size: 22px;
   margin-bottom: 16px;
   padding: 16px 16px 0;
+  line-height: 1.5;
 `
 
 const Description = styled.div`
@@ -53,13 +54,13 @@ const Img = styled.div`
   background-position: center;
 `
 
-const OpenSource = () => {
+const Articles = () => {
   const { site } = useStaticQuery<DataInterface>(
     graphql`
       query {
         site {
           siteMetadata {
-            openSource {
+            articles {
               title
               description
               link
@@ -71,11 +72,11 @@ const OpenSource = () => {
     `,
   )
 
-  const data = site.siteMetadata.openSource
+  const data = site.siteMetadata.articles
 
   return (
     <Wrap>
-      <H2>Open-source projects</H2>
+      <H2>Articles</H2>
       <Content>
         {data.map(item => (
           <Link href={item.link} target="_blank" rel="noopener noreferrer">
@@ -93,4 +94,4 @@ const OpenSource = () => {
   )
 }
 
-export default OpenSource
+export default Articles

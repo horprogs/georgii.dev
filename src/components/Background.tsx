@@ -14,7 +14,7 @@ const Item = styled.div<{
   left: ${props => props.left}px;
   top: ${props => props.top}px;
   position: absolute;
-  animation: ${props => props.animation} linear 2s ${props => props.delay}s infinite;
+  animation: ${props => props.animation} linear 4s ${props => props.delay}s infinite;
   opacity: 0;
 `
 
@@ -49,7 +49,7 @@ const Background = ({ anchor }: Props) => {
             id: Math.random(),
             left: Math.random() * width + left,
             top: Math.random() * (height - itemWidth),
-            delay: Math.random() * 2,
+            delay: Math.random() * 4,
             width: itemWidth,
           }
         }),

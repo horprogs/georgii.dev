@@ -24,10 +24,10 @@ const Greetings = () => (
   <Wrap>
     <H2>Nice to meet you!</H2>
     <Text>
-      I&apos;m an experienced frontend developer, love developing user-friendly and
-      reliable interfaces. I have a deep understanding how the modern frontend works,
-      which libraries and tools better to use, about TypeScript, testing, web-performance
-      patterns, web vulnerabilities (xss, csrf, sqli, idor, xxe, etc.).
+      I&apos;m a front-end developer, love developing user-friendly and reliable
+      interfaces. I have a deep understanding how the modern frontend works, which
+      libraries and tools better to use, about TypeScript, testing, web-performance
+      patterns, web vulnerabilities, etc.
     </Text>
   </Wrap>
 )

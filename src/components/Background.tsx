@@ -14,7 +14,7 @@ const Item = styled.div<{
   left: ${props => props.left}px;
   top: ${props => props.top}px;
   position: absolute;
-  animation: ${props => props.animation} linear 3s ${props => props.delay}s infinite;
+  animation: ${props => props.animation} linear 2s ${props => props.delay}s infinite;
   opacity: 0;
 `
 
@@ -26,7 +26,7 @@ type Props = {
 }
 
 const Background = ({ anchor }: Props) => {
-  const [items, setItems] = useState(new Array(26).fill(0))
+  const [items, setItems] = useState(new Array(48).fill(0))
 
   const { width, height, top, left } = anchor?.getBoundingClientRect() || {}
 
@@ -57,9 +57,6 @@ const Background = ({ anchor }: Props) => {
     }
 
     renderItems()
-    setInterval(() => {
-      renderItems()
-    }, 2500)
   }, [width, height, top, left])
 
   const animation = keyframes`

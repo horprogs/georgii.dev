@@ -47,7 +47,7 @@ const Background = ({ anchor }: Props) => {
 
           return {
             id: Math.random(),
-            left: Math.random() * width + left,
+            left: Math.random() * width + left - itemWidth * 2,
             top: Math.random() * (height - itemWidth),
             delay: Math.random() * 4,
             width: itemWidth,

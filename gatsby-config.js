@@ -24,8 +24,21 @@ module.exports = {
         link: 'https://github.com/horprogs/vue-ssr-hmr',
         img: 'vuessr.jpeg',
       },
+      {
+        title: 'React Query example app',
+        description: 'An example of building the app using React Query.',
+        link: 'https://github.com/horprogs/react-query',
+        img: 'react-query.svg',
+      },
     ],
     articles: [
+      {
+        title: 'Building The Real App With React Query',
+        description:
+          'I explain the most common React Query features that you need to be familiar with when creating a real-life application that is stable when testing.',
+        link: 'https://www.smashingmagazine.com/2022/01/building-real-app-react-query/',
+        img: 'building-real-app-react-query.jpeg',
+      },
       {
         title: 'How I made it easy to develop on Vue.js with server-side rendering',
         description: 'My experience of setting SSR, HMR, VueX etc. boilerplate for Vue 2',

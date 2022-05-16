@@ -12,14 +12,11 @@
     "ts": "npx tsc"
   },
   "author": "Georgii Perepecho <horprogs@gmail.com>",
-  "engines": {
-    "node": "16.13.1"
-  },
   "dependencies": {
     "babel-plugin-styled-components": "^2.0.2",
     "gatsby": "^4.1.0",
-    "gatsby-plugin-google-analytics": "^4.1.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-google-gtag": "^4.14.0",
     "gatsby-plugin-image": "^2.3.0",
     "gatsby-plugin-load-script": "^1.1.0",
     "gatsby-plugin-offline": "^5.1.0",

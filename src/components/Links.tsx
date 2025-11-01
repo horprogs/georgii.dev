@@ -32,7 +32,7 @@ const HeadInfo = () => (
         <Github />
       </Link>
       <Link
-        href="https://linkedin.com/in/georgy-perepecho"
+        href="https://www.linkedin.com/in/georgii-perepecho/"
         target="_blank"
         rel="noopener noreferrer"
       >
